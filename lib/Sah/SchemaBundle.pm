@@ -1,10 +1,13 @@
-package Sah::Schemas;
+## no critic: TestingAndDebugging::RequireUseStrict
+package Sah::SchemaBundle;
 
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 1;
-# ABSTRACT: Convention for Sah-Schemas-* distribution
+# ABSTRACT: Convention for Sah-SchemaBundle-* distribution
 
 =head1 SPECIFICATION VERSION
 
@@ -13,7 +16,8 @@ package Sah::Schemas;
 
 =head1 DESCRIPTION
 
-A C<Sah-Schemas-*> distribution contains one or more related L<Sah> schemas.
+A C<Sah-SchemaBundle-*> distribution contains one or more related L<Sah>
+schemas.
 
 =over
 
@@ -32,6 +36,6 @@ This relieves users from having to normalize it themselves.
 
 =head1 SEE ALSO
 
-C<Sah::Schemas::*>
+C<Sah::SchemaBundle::*>
 
 L<Sah> and L<Data::Sah>
